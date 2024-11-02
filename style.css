@@ -108,8 +108,10 @@ main {
   
 }
 .specialp{
-  background-color: #cacaca;
+  background-color: #e6e6e6;
   border-radius: 35px;
+  
+  
   
 }
   
@@ -120,6 +122,7 @@ main h2 {
   font-weight: 600;
   display: flex;
   align-items: center;
+  margin-left: 2.6em;
 
 }
 
@@ -146,18 +149,24 @@ main h2 {
   font-weight: bold;
   color: #b3b3b3;
   margin-right: 3em;
+  display: flex;
+ 
   
 }
 
 .card {
-  position: relative;
+  
   padding: 1rem;
   padding-top: 1em;
+ 
+  
 }
 
 .card img {
   width: 1.2em;
   border-radius: 50%;
+  
+  
 }
 
 footer {
@@ -167,6 +176,7 @@ footer {
   padding-right: 7rem;
   justify-content: center;
 }
+
 footer p { font-weight: 300;}  
 
 #articles1 {
@@ -216,8 +226,8 @@ footer #articles1 .footimg {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
- 
 }
+ 
 
 #ending h2 {
   margin-bottom: 1rem;
@@ -225,8 +235,10 @@ footer #articles1 .footimg {
 
 #ending p {
   margin: 0.5rem 0;
- color: #b3b3b3;
- border: solid 1px #b3b3b3;
+  color: #b3b3b3;
+  border: solid 1px #b3b3b3;
+  padding: 0.3em;
+  font-size: small;
 }
 #container {
   display: flex;
@@ -240,6 +252,7 @@ hr {
   margin: 1rem 0;
   border: none;
   border-top: 1px solid #b3b3b3;
+  width: 20em
 }
 
 #endingul {
