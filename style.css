@@ -19,8 +19,6 @@ header button {
   padding: 0.8em;
   
 }
-
-
 #msection {
   width: 100%;
   display: flex;
@@ -33,7 +31,6 @@ header button {
   margin-left: auto;
   
 }
-
 nav {
   width: 100%;
   border: solid 0.5px black;
@@ -45,6 +42,9 @@ nav {
  position: fixed;
  background-color: #ffc017;
 }
+
+
+
 .navbar-scrolled {
   background-color: white;
   color: black;
@@ -94,17 +94,33 @@ main {
   padding-top: 1.2em;
   padding-left: 7rem;
   padding-right: 7em;
+  padding-bottom: 1.5em;
 }
 
 .article {
   font-weight: 700;
-  display: flex;
+  
   justify-content: space-between;
   align-items: center;
 }
-
+#text-content {
+  text-align: center;
+  
+}
+.specialp{
+  background-color: #cacaca;
+  border-radius: 35px;
+  
+}
+  
+ 
+ 
+  
 main h2 {
   font-weight: 600;
+  display: flex;
+  align-items: center;
+
 }
 
 .text-content {
@@ -149,6 +165,7 @@ footer {
   display: flex;
   padding-left: 7rem;
   padding-right: 7rem;
+  justify-content: center;
 }
 footer p { font-weight: 300;}  
 
@@ -210,18 +227,14 @@ footer #articles1 .footimg {
   margin: 0.5rem 0;
  color: #b3b3b3;
  border: solid 1px #b3b3b3;
- 
-  
 }
-
-
-
 #container {
   display: flex;
   width: 100%;
-  justify-content: space-between; 
+  margin-left: 15em;
+  margin-top: 3em;
+  
 }
-
 
 hr {
   margin: 1rem 0;
@@ -252,7 +265,7 @@ hr {
 #discover {
  width: 50%;
  justify-content: flex-end;
- margin-left: 30em;
+ margin-left: 7em;
 }
  
  
@@ -263,3 +276,8 @@ justify-content: center;
 #discover h2 {
   font-weight: 700;
 }
+ 
+  
+
+
+
