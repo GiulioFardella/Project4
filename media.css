@@ -1,0 +1,30 @@
+@media screen and (max-width: 600px) {
+    #navid p {
+      display: none;
+    }
+  
+    #navid p:last-child {
+      display: block;
+    }
+  
+    #navid button {
+      display: block;
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+    }
+  
+    #navid {
+      gap: 0.5rem;
+    }
+    footer { 
+    flex-direction: column;    
+    }
+    main {
+        flex-direction: column;
+    }
+    #ending #endingul {
+        flex-direction: column;
+    }
+    #svgdiv { display: none;}
+  }
+

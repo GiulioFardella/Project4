@@ -1,8 +1,14 @@
+
+
 header {
   background-color: #ffc017;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
+header p {
+  margin-top: 0.5em;
+}  
+  
 
 header button {
   color: white;
@@ -10,17 +16,22 @@ header button {
   border-radius: 35px;
   border: 0;
   font-family: 'Roboto', sans-serif;
+  padding: 0.8em;
+  
 }
+
 
 #msection {
   width: 100%;
   display: flex;
+  height: 30em;
 }
 
 #svgdiv {
   width: 23em;
   justify-content: flex-end;
   margin-left: auto;
+  
 }
 
 nav {
@@ -31,11 +42,26 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+ position: fixed;
+ background-color: #ffc017;
+}
+.navbar-scrolled {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.scrolled {
+  background-color: rgb(5, 202, 5);
+  color: white;
+  transition: background-color 0.3s ease;
 }
 
 nav img {
   margin-left: 4em;
   flex-direction: row;
+  
 }
 
 #navid {
@@ -50,15 +76,14 @@ nav img {
   font-size: 10vh;
   font-style: italic;
 }
-
 #sidem {
-  flex-direction: column;
-  align-items: center;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: 3.4rem;
+flex-direction: column;
+align-items: center;
+margin-top: auto;
+margin-bottom: auto;
+margin-left: 3.4rem;
 }
-
+#sidem p { margin-top: 1em;}
 #sidem button {
   margin-top: 2em;
   font-family: 'Roboto', sans-serif;
@@ -67,6 +92,8 @@ nav img {
 main {
   border: solid #b3b3b3 2px;
   padding-top: 1.2em;
+  padding-left: 7rem;
+  padding-right: 7em;
 }
 
 .article {
@@ -120,7 +147,10 @@ main h2 {
 footer {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   display: flex;
+  padding-left: 7rem;
+  padding-right: 7rem;
 }
+footer p { font-weight: 300;}  
 
 #articles1 {
   width: 50%;
@@ -153,8 +183,9 @@ footer p img {
 }
 
 .footimg {
-  width: 10em;
+  width: 13em;
   margin-left: 1rem;
+  margin-top: 0.4em;
 }
 
 footer #articles1 .footimg {
@@ -165,6 +196,10 @@ footer #articles1 .footimg {
 #ending {
   width: 50%;
   padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+ 
 }
 
 #ending h2 {
@@ -173,13 +208,13 @@ footer #articles1 .footimg {
 
 #ending p {
   margin: 0.5rem 0;
+ color: #b3b3b3;
+ border: solid 1px #b3b3b3;
+ 
+  
 }
 
-#endingul {
-  width: 100%;
-  list-style: none;
-  padding: 1rem;
-}
+
 
 #container {
   display: flex;
@@ -196,17 +231,35 @@ hr {
 
 #endingul {
   width: 50%;
-  padding: 1rem;
+  padding: 1.2rem;
   list-style: none;
+  display: grid;
+  color: #b3b3b3;
+  grid-template-columns: repeat(3, 3fr);
+  
 }
 #endingul ul {
   list-style: none;
-}
-#discover {
+  padding: 0;
+  margin: 0;
+  display: flex;
   flex-wrap: wrap;
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr)
 }
+
+#discover {
+ width: 50%;
+ justify-content: flex-end;
+ margin-left: 30em;
+}
+ 
+ 
 hr {
 justify-content: center;
 }
 
-  
+#discover h2 {
+  font-weight: 700;
+}
