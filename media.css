@@ -16,15 +16,41 @@
     #navid {
       gap: 0.5rem;
     }
-    footer { 
-    flex-direction: column;    
+    footer {
+    display: block;
+    flex-direction: column;
+    justify-content: center; 
+       
     }
     main {
         flex-direction: column;
     }
-    #ending #endingul {
+    #ending ,#endingul {
         flex-direction: column;
+        text-align: center;
     }
+    #endingul {
+      text-align: center;
+      margin-right: 7rem;
+    }
+    hr { text-align: center;}
+    ul { margin-right: 13rem;}
     #svgdiv { display: none;}
+
+    #sidem {
+      text-align: center;
+    }
+    #container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  #container {
+    
+  }
+  #sidem h1 {
+    width: 100%;
+    font-size: 3rem;
+  }
   }
 

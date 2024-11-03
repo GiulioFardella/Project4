@@ -12,11 +12,11 @@ window.addEventListener("scroll", function() {
  //// NAVBAR 
   window.addEventListener("scroll", function() {
     const headerHeight = document.querySelector("header").offsetHeight;
-    const navBar = document.querySelector("nav");
+      const navBar = document.querySelector("nav");
     
     if (window.scrollY > headerHeight) {
       navBar.classList.add("navbar-scrolled");
-    } else {
+     } else{ 
       navBar.classList.remove("navbar-scrolled");
     }
   });
